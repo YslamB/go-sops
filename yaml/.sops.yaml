@@ -1,0 +1,4 @@
+creation_rules:
+  - path_regex: \.yaml$
+    pgp: >-
+      14093FAD0219A1D1B52761B4A88742FB6C975643

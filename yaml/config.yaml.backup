@@ -1,0 +1,17 @@
+
+storage:
+  psql:
+    host: 127.0.0.1
+    port: 5432
+    database: testtt
+    username: postgres
+    password: 12345
+    pg_pool_max_conn: 400
+  redis:
+    addr: localhost
+    port: 6379
+    username: user
+    password: secu4e
+    db: 0
+jwt:
+  auth: SECRET_KEY_8899
