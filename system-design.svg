@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <rect x="20" y="20" width="960" height="560" fill="#f8f9fa" stroke="#dee2e6" rx="10"/>
+  <text x="500" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#212529">🔐 Go SOPS Secret Management System</text>
+  
+  <!-- YAML Flow -->
+  <text x="200" y="90" font-family="Arial" font-size="16" font-weight="bold" fill="#495057">📄 YAML Configuration</text>
+  
+  <rect x="50" y="110" width="140" height="70" fill="#dc3545" stroke="#bd2130" rx="8"/>
+  <text x="120" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="white">config.yaml</text>
+  <text x="120" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="white">❌ Plain Text</text>
+  
+  <rect x="220" y="125" width="80" height="40" fill="#007bff" stroke="#0056b3" rx="8"/>
+  <text x="260" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="white">🔒 SOPS</text>
+  
+  <rect x="330" y="110" width="140" height="70" fill="#28a745" stroke="#1e7e34" rx="8"/>
+  <text x="400" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="white">config.sops.yaml</text>
+  <text x="400" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="white">✅ Encrypted</text>
+  
+  <rect x="500" y="110" width="120" height="70" fill="#ffc107" stroke="#e0a800" rx="8"/>
+  <text x="560" y="135" font-family="Arial" font-size="14" text-anchor="middle">Go App</text>
+  <text x="560" y="155" font-family="Arial" font-size="12" text-anchor="middle">(YAML)</text>
+
+  <!-- ENV Flow -->
+  <text x="200" y="240" font-family="Arial" font-size="16" font-weight="bold" fill="#495057">🌍 Environment Variables</text>
+  
+  <rect x="50" y="260" width="140" height="70" fill="#dc3545" stroke="#bd2130" rx="8"/>
+  <text x="120" y="285" font-family="Arial" font-size="14" text-anchor="middle" fill="white">config.env</text>
+  <text x="120" y="305" font-family="Arial" font-size="12" text-anchor="middle" fill="white">❌ Plain Text</text>
+  
+  <rect x="220" y="275" width="80" height="40" fill="#007bff" stroke="#0056b3" rx="8"/>
+  <text x="260" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="white">🔒 SOPS</text>
+  
+  <rect x="330" y="260" width="140" height="70" fill="#28a745" stroke="#1e7e34" rx="8"/>
+  <text x="400" y="285" font-family="Arial" font-size="14" text-anchor="middle" fill="white">config.sops.env</text>
+  <text x="400" y="305" font-family="Arial" font-size="12" text-anchor="middle" fill="white">✅ Encrypted</text>
+  
+  <rect x="500" y="260" width="120" height="70" fill="#ffc107" stroke="#e0a800" rx="8"/>
+  <text x="560" y="285" font-family="Arial" font-size="14" text-anchor="middle">Go App</text>
+  <text x="560" y="305" font-family="Arial" font-size="12" text-anchor="middle">(ENV)</text>
+
+  <!-- GPG Key -->
+  <rect x="700" y="110" width="200" height="100" fill="#6c757d" stroke="#495057" rx="8"/>
+  <text x="800" y="135" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">🔑 GPG Key</text>
+  <text x="800" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="white">4096-bit RSA</text>
+  <text x="800" y="175" font-family="Arial" font-size="12" text-anchor="middle" fill="white">14093FAD...6C975643</text>
+  <text x="800" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Encrypts Both Flows</text>
+
+  <!-- Features Box -->
+  <rect x="50" y="380" width="850" height="150" fill="#e9ecef" stroke="#ced4da" rx="8"/>
+  <text x="475" y="410" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#212529">🌟 Key Features</text>
+  
+  <!-- YAML Features -->
+  <rect x="80" y="430" width="200" height="80" fill="#cfe2ff" stroke="#9ec5fe" rx="5"/>
+  <text x="180" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">📄 YAML</text>
+  <text x="90" y="470" font-family="Arial" font-size="11" fill="#495057">• Structured config</text>
+  <text x="90" y="485" font-family="Arial" font-size="11" fill="#495057">• Type-safe structs</text>
+  <text x="90" y="500" font-family="Arial" font-size="11" fill="#495057">• Hierarchical data</text>
+
+  <!-- ENV Features -->
+  <rect x="300" y="430" width="200" height="80" fill="#d1ecf1" stroke="#bee5eb" rx="5"/>
+  <text x="400" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">🌍 ENV</text>
+  <text x="310" y="470" font-family="Arial" font-size="11" fill="#495057">• Dual loading methods</text>
+  <text x="310" y="485" font-family="Arial" font-size="11" fill="#495057">• Secret masking</text>
+  <text x="310" y="500" font-family="Arial" font-size="11" fill="#495057">• 12-factor compliance</text>
+
+  <!-- Security Features -->
+  <rect x="520" y="430" width="200" height="80" fill="#d4edda" stroke="#c3e6cb" rx="5"/>
+  <text x="620" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">🔒 Security</text>
+  <text x="530" y="470" font-family="Arial" font-size="11" fill="#495057">• GPG encryption</text>
+  <text x="530" y="485" font-family="Arial" font-size="11" fill="#495057">• Git repository safe</text>
+  <text x="530" y="500" font-family="Arial" font-size="11" fill="#495057">• Runtime decryption</text>
+
+  <!-- Commands -->
+  <rect x="740" y="430" width="140" height="80" fill="#fff3cd" stroke="#ffeaa7" rx="5"/>
+  <text x="810" y="450" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">💻 Commands</text>
+  <text x="750" y="470" font-family="Arial" font-size="10" fill="#495057">sops -e file.yaml</text>
+  <text x="750" y="485" font-family="Arial" font-size="10" fill="#495057">sops -d file.sops.yaml</text>
+  <text x="750" y="500" font-family="Arial" font-size="10" fill="#495057">go run main.go</text>
+
+  <!-- Arrows -->
+  <path d="M190 145 L210 145" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M300 145 L320 145" stroke="#28a745" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M470 145 L490 145" stroke="#28a745" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <path d="M190 295 L210 295" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M300 295 L320 295" stroke="#28a745" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M470 295 L490 295" stroke="#28a745" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- GPG to processes arrows -->
+  <path d="M700 160 L310 160" stroke="#6c757d" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M700 180 L310 290" stroke="#6c757d" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

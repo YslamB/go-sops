@@ -1,0 +1,6 @@
+creation_rules:
+  - path_regex: \.(env|dotenv)$
+    pgp: >-
+      14093FAD0219A1D1B52761B4A88742FB6C975643
+    # For .env files, encrypt only the values after the = sign
+    unencrypted_regex: '^(#.*|[A-Z_]+)='
