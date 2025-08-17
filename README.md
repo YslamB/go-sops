@@ -47,7 +47,7 @@ go-sops/
 brew install sops gnupg
 
 # Clone and navigate to project
-git clone <your-repo>
+git clone https://github.com/YslamB/go-sops.git
 cd go-sops
 ```
 
